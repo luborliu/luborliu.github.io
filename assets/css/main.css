@@ -1647,6 +1647,62 @@
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
+
+		a.white {
+			text-decoration: none;
+			color: inherit;
+			border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
+			-moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+			-webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+			-ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+			transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+			outline: 0;
+		}
+		a.white:hover {
+			color: #189aba;
+			border-bottom-color: rgba(255, 255, 255, 0);
+		}
+		/*a.white:visited{
+			color: #8a0073;
+			border-bottom-color: rgba(255, 255, 255, 0);
+		}*/
+		a.blue {
+			text-decoration: none;
+			color: #0007cf;
+			border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
+			-moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+			-webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+			-ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+			transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+			outline: 0;
+		}
+		a.blue:hover {
+			color: #189aba;
+			border-bottom-color: rgba(255, 255, 255, 0);
+		}
+		a.blue:visited{
+			color: #8a0073;
+			border-bottom-color: rgba(255, 255, 255, 0);
+		}
+		a.black {
+			text-decoration: none;
+			color: #000008;
+			border-bottom: ; 5px rgba(128, 128, 128, 0.5);*/
+			-moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+			-webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+			-ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+			transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+			outline: 1;
+		}
+		a.black:hover {
+			color: #189aba;
+			border-bottom-color: rgba(255, 255, 255, 0);
+		}
+		a.black:visited{
+			color: #8a0073;
+			border-bottom-color: rgba(255, 255, 255, 0);
+		}
+
 	sub {
 		position: relative;
 		top: 0.5em;
